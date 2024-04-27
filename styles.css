@@ -1,0 +1,35 @@
+body {
+	background: black;
+}
+* {
+	border: 1px dashed red;
+	min-height: 10px;
+}
+p {
+	font-size: small;
+	font-family: Comic Sans MS;
+}
+
+.instagram {
+	/* your styles here */
+	background-color: gray;
+	width: 400px;
+	height: 300px;
+	margin: auto;
+	padding: 10px;
+}
+.instagram-header {
+	display: flex;
+	justify-content: center;
+	background-color: white;
+}
+.instagram-body {
+	display: flex;
+}
+.instagram-body-left p:first-child {
+	margin-top: x;
+}
+.instagram-body-left,
+.instagram-body-right {
+	padding: x;
+}
